@@ -5,32 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculam Vitae</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
 </head>
 <body>
-    <img src="photo/photo.jpg" alt = "Nasir Uddin" width="100" height="150" >
-    <p>
-        <h3> Name : Md. Nasir Uddin </h3>
-        <h4> mail : nasiruddinru42@gmail.com</h4>
-        <h4>Dept : Computer Science & Engineering</h4>
-        <br>
-        
+    <div class="container">
+        <div class="left-side">
+            <div class="profile">
+                <div class="img"><img src="photo/photo.jpg" alt = "Nasir Uddin" width="150" height="200" ></div>
+                <h2 class="name">Md. Nasir Uddin</h2>
+            </div>
+        <div>
+            <h3 class="contact">Personal Contact Info :</h3>
+            <ul>
+                <li>mail : nasiruddinru42@gmail.</li><br>
+                <li>github : https://github.com/Nasiruddin42 </li>
+            </ul>
+        </div>
+    <div>
         <h3>Skill : </h3>
         <ul>
             <li><h4>Programming Languages</h4></li>
-            <ul>
+            <ul class="ob">
                 <li>C</li>
                 <li>C++</li>
                 <li>Java</li>
             </ul>
             <li><h4>Frontend</h4></li>
-            <ul>
+            <ul class="ob">
                 <li>HTML</li>
             </ul>
             <li><h4>Project</h4></li>
-            <ul>
+            <ul class="ob">
                 <li>Game</li>
             </ul>
         </ul>
+        </div>
+    </div>
+    <div class="right-side">
         <h3>Hobbies : </h3>
         <ul>
             <li><h4>Football</h4></li>
@@ -69,7 +80,17 @@
         <ul>
             <li>ABC pvt ltd - junior software Engineer for 2 years.</li>
         </ul>
-    </p>
+        <div class="project">
+            <h3>Projects</h3>
+            <h4>Advanture Warrior Game </h4>
+            <ul>
+                <li>Used unity game engine for creating 3d game world and animation.</li>
+                <li>Used C# Languages</li>
+                <li>Used ilastator for creating graphics</li>
+            </ul>
+        </div>
+     </div>
+</div>
 
 </body>
 </html>
